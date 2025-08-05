@@ -380,7 +380,7 @@ dev = [
     { name = "langgraph-checkpoint", editable = "../checkpoint" },
     { name = "mypy" },
     { name = "pytest" },
-    { name = "pytest-asyncio" },
+    { name = "pytest-asyncio", specifier = "==1.0.0" },
     { name = "pytest-mock" },
     { name = "pytest-retry", specifier = ">=1.7.0" },
     { name = "pytest-watcher" },
