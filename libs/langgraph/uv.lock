@@ -1,5 +1,5 @@
 version = 1
-revision = 3
+revision = 2
 requires-python = ">=3.9"
 resolution-markers = [
     "python_full_version >= '3.14'",
@@ -1452,7 +1452,7 @@ dev = [
     { name = "langgraph-checkpoint", editable = "../checkpoint" },
     { name = "mypy" },
     { name = "pytest" },
-    { name = "pytest-asyncio" },
+    { name = "pytest-asyncio", specifier = "==1.0.0" },
     { name = "pytest-mock" },
     { name = "pytest-retry", specifier = ">=1.7.0" },
     { name = "pytest-watcher" },
